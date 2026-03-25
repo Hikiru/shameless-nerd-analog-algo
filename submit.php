@@ -1,8 +1,8 @@
 <html>
 <body>
 
-    Favorite movie: <?php echo $_GET["movie"]; ?><br>
-    Favorite book: <?php echo $_GET["book"]; ?><br><br>
+    Favorite movie: <?php echo $_POST["movie"]; ?><br>
+    Favorite book: <?php echo $_POST["book"]; ?><br><br>
 
     Wow that's awesome!
 
