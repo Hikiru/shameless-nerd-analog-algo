@@ -1,13 +1,21 @@
-<!doctype html>
+<?php
+include_once "src/config.php"; ?>
+
 <html lang="en">
     <html>
+        <head>
+            <title>Snacc</title>
+            <link rel="icon" href="media/reid.jpg" />
+        </head>
+
         <body>
             <main>
                 <h1>
-                    <img src="reid.jpg" style="width: 100px" />
-                    Shameless Nerd Analog Algorithm
+                    <img src="media/reid.jpg" style="width: 100px" />
+                    Shameless Nerd Analog Community Curation
                 </h1>
-                <form action="submit.php" method="post">
+                <h3>AKA, Snacc</h3>
+                <form action="src/submit.php" method="post">
                     <label for="movie">Favorite movie?</label>
                     <input type="text" id="movie" name="movie" /><br /><br />
                     <label for="book">Favorite book?</label>
